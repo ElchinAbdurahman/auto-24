@@ -1,0 +1,16 @@
+.price{
+    clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
+}
+hr{
+    height: 1px;
+    width: 96%;
+    margin: auto;
+    background-color: rgb(208, 200, 200);
+    border: none;
+}
+
+.main-gallery{
+   display: grid;
+   grid-template-columns:22% 78% ;
+   
+}
