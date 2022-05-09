@@ -3,8 +3,12 @@
 }
 .product{
     display: grid;
-    grid-template-columns: 30% 50% 20%;
-    
+    grid-template-columns: 30% 50% 20%; 
+}
+@media screen and (max-width:1250px){
+    .product{
+        display: block;
+    }
 }
 .price-bar{
     clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);

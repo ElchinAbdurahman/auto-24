@@ -4,8 +4,8 @@
 .main-navbar{
     background-image: url("../assets/bg-img.jpg") ;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 800px;
+    background-size: cover;
+    
 
 }
 .tab{
